@@ -8,7 +8,7 @@ app = Flask(__name__)
 def hello():
     """return a friendly greeting."""
     print("I am inside hello world")
-    return 'hello world! ccf-gcp is working!'
+    return 'hello world! it is working!'
 
 
 @app.route('/echo/<name>')
